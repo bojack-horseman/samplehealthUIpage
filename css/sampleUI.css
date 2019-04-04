@@ -1,0 +1,133 @@
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css");
+.section-image{
+  height: 35px;
+  width: 35px;
+}
+.sections{
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  bottom:50px;
+}
+.card-button {
+  background-color: #827AE7;
+  color: #FFF;
+  border-radius: 10px;
+}
+.section-box{
+  box-shadow: 0px 2px 4px rgba(139, 139, 139, 0.25);
+  border-bottom: 2px solid #827AE7;
+}
+.section-description{
+  font-size: 14px;
+  color: rgb(128, 128, 128);
+}
+.rate {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+label {
+  float: right;
+  font-size: 0;
+  color: #d9d9d9;
+}
+
+label:before {
+  content: "\f005";
+  font-family: FontAwesome;
+  font-size: 15px;
+}
+
+label:hover,
+label:hover ~ label {
+  color: #fcd000;
+  transition: 0.2s;
+}
+
+input[type="radio"]:checked ~ label {
+  color: #ccac00;
+}
+
+input[type="radio"]:checked ~ label:hover,
+input[type="radio"]:checked ~ label:hover ~ label {
+  color: #fcd000;
+  transition: 0.2s;
+}
+/* Half-star*/
+
+.star-half {
+  position: relative;
+}
+
+.star-half:before {
+  position: absolute;
+  content: "\f089";
+  padding-right: 0;
+}
+
+input[type="radio"] {
+  display: none;
+}
+.card-image{
+  height:160px;
+  width:160px;
+  bottom:50px;
+}
+.card-title{
+  font-weight: 500;
+  color: rgb(74, 74, 74);
+  font-size: 15px;
+}
+.card-content{
+  color: rgb(128, 128, 128);
+  font-size: 13px;
+}
+.section-row{
+  padding:10px;
+}
+.select-box{
+  overflow: hidden;
+  box-shadow: none !important;
+  width: 150px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+  color: #827AE7;
+  outline: none !important;
+  background-color: inherit !important;
+}
+select::-ms-expand {
+  display: none;
+}
+.selectbox-arrow{
+  width:20px;
+  height:20px;
+  right:40px;
+  cursor:pointer;
+}
+.section-category{
+  cursor: pointer;
+  padding: 50px;
+}
+.section-category.active{
+  border-bottom: 2px solid #827AE7;
+  transform: scale(1.2);
+  box-shadow:0px 0px 4px rgba(0, 0, 0, 0.25);
+  background: #F9F9F9;
+}
+
+/* media query */
+@media only screen and (max-width: 576px)
+{
+  .section-category{
+    padding: 20px !important;
+  }
+}
+@media only screen and (max-width: 320px)
+{
+  .section-category{
+    padding: 10px !important;
+  }
+}

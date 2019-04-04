@@ -1,0 +1,64 @@
+.header_searchbar{
+  width: 450px !important;
+  border-radius: 10px;
+}
+.header_searchbutton{
+  background-color: #827AE7;
+  color: #FFF;
+  border-radius: 10px;
+}
+.navbar-title.active
+{
+  border-bottom: 2px solid #827AE7;
+}
+.company-logo{
+  width: 40px;
+}
+.header{
+  height: 250px;
+}
+.message{
+  width:35px;
+  height:35px;
+}
+.profile{
+  width:35px;
+  height:35px;
+  border-radius: 50%;
+}
+.profile-name, .navbar-title{
+  font-size: 14px;
+}
+.navbar-head {
+  padding-left:120px;
+  padding-right:120px;
+}
+.header_searchicon{
+  left: 195px;
+  bottom: 30px;
+  width: 20px;
+}
+
+/* media query */
+@media only screen and (min-width: 768px) and (max-width: 992px)
+{
+  .navbar-head{
+    padding-left:30px !important;
+    padding-right:30px !important;
+  }
+}
+@media only screen and (max-width: 575px)
+{
+  .header_searchbar{
+    width: 220px !important;
+  }
+  .header_searchbutton{
+    display: none;
+  }
+  .header_searchicon{
+    display: block;
+  }
+  .header{
+    height: 300px !important;
+  }
+}

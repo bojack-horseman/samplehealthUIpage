@@ -1,0 +1,17 @@
+.footer-content{
+  font-size: 11px;
+}
+.footer-title{
+  font-size: 12px;
+}
+.address{
+  max-width: 60% !important;
+}
+a{
+  outline: none !important;
+  text-decoration: none !important;
+}
+.footer-logo{
+  width: 40px;
+  border-radius: 500px;
+}
